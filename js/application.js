@@ -36,11 +36,11 @@ function fillTiles(startIndex) {
 // "tinski" button: fills first 16 tiles (2 to 65536)
 document.getElementById('hack-button-tinski').addEventListener('click', function() {
   fillTiles(0);
-  alert("✨ Hack activated by tinski! Showing first set of tiles! ✨");
+  alert("Hack activated! Sos la mejoooor");
 });
 
 // "princesa" button: fills remaining tiles (131072 to 1048576)
 document.getElementById('hack-button-princesa').addEventListener('click', function() {
   fillTiles(16);
-  alert("👑 Hack activated by princesa! Showing remaining set of tiles! 👑");
+  alert("👑 Hack activated! Te amo lindaaaaaa! 👑");
 });
